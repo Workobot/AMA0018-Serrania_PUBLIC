@@ -1,0 +1,2151 @@
+; FBX 7.7.0 project file
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1004
+	FBXVersion: 7700
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2024
+		Month: 12
+		Day: 24
+		Hour: 1
+		Minute: 53
+		Second: 51
+		Millisecond: 508
+	}
+	Creator: "FBX SDK/FBX Plugins version 2020.3.2"
+	OtherFlags:  {
+		TCDefinition: 127
+	}
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: "Created by FBX Exporter from Unity Technologies"
+			Subject: ""
+			Author: "Unity Technologies"
+			Keywords: "Nodes Meshes Materials Textures Cameras Lights Skins Animation"
+			Revision: "1.0"
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "C:\UnityGit\WKT001-PropsLibrary_HD\PropsLibrary_HD\Assets\agjj9j7s_Serrania_Dummy_Loc.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "C:\UnityGit\WKT001-PropsLibrary_HD\PropsLibrary_HD\Assets\agjj9j7s_Serrania_Dummy_Loc.fbx"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", ""
+			P: "Original|ApplicationName", "KString", "", "", "Unity FBX Exporter"
+			P: "Original|ApplicationVersion", "KString", "", "", "4.2.1"
+			P: "Original|DateTime_GMT", "DateTime", "", "", ""
+			P: "Original|FileName", "KString", "", "", ""
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", ""
+			P: "LastSaved|ApplicationName", "KString", "", "", "Unity FBX Exporter"
+			P: "LastSaved|ApplicationVersion", "KString", "", "", "4.2.1"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", ""
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",-1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",1
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",0
+		P: "TimeProtocol", "enum", "", "",2
+		P: "SnapOnFrameMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",46186158000
+		P: "CustomFrameRate", "double", "Number", "",-1
+		P: "TimeMarker", "Compound", "", ""
+		P: "CurrentTimeMarker", "int", "Integer", "",-1
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 2136159240112, "Scene", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 78
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "Model" {
+		Count: 75
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 1
+		PropertyTemplate: "FbxMesh" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+			}
+		}
+	}
+	ObjectType: "Material" {
+		Count: 1
+		PropertyTemplate: "FbxSurfaceLambert" {
+			Properties70:  {
+				P: "ShadingModel", "KString", "", "", "Lambert"
+				P: "MultiLayer", "bool", "", "",0
+				P: "EmissiveColor", "Color", "", "A",0,0,0
+				P: "EmissiveFactor", "Number", "", "A",1
+				P: "AmbientColor", "Color", "", "A",0.2,0.2,0.2
+				P: "AmbientFactor", "Number", "", "A",1
+				P: "DiffuseColor", "Color", "", "A",0.8,0.8,0.8
+				P: "DiffuseFactor", "Number", "", "A",1
+				P: "Bump", "Vector3D", "Vector", "",0,0,0
+				P: "NormalMap", "Vector3D", "Vector", "",0,0,0
+				P: "BumpFactor", "double", "Number", "",1
+				P: "TransparentColor", "Color", "", "A",0,0,0
+				P: "TransparencyFactor", "Number", "", "A",0
+				P: "DisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "DisplacementFactor", "double", "Number", "",1
+				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "VectorDisplacementFactor", "double", "Number", "",1
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	Geometry: 2136150287056, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -50,-50,50,50,-50,50,-50,50,50,50,50,50,-50,50,-50,50,50,-50,-50,-50,-50,50,-50,-50
+		} 
+		PolygonVertexIndex: *36 {
+			a: 0,3,-3,0,1,-4,2,5,-5,2,3,-6,4,7,-7,4,5,-8,6,1,-1,6,7,-2,1,5,-4,1,7,-6,6,2,-5,6,0,-3
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *108 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0
+			} 
+			NormalsW: *36 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *108 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0
+			} 
+			BinormalsW: *36 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *108 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			TangentsW: *36 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,0,1,0,0,1,1,1,0,1,1,1,0,1,1,1,0,0,1,0,0,0,1,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,0
+			} 
+			UVIndex: *36 {
+				a: 0,3,2,0,1,3,8,5,4,8,9,5,10,7,6,10,11,7,12,14,13,12,15,14,16,18,17,16,19,18,20,22,21,20,23,22
+			} 
+		}
+		LayerElementUV: 1 {
+			Version: 101
+			Name: "UVSet1"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0.690986514091492,0.347164392471313,0.996658086776733,0.347164392471313,0.690986514091492,0.652835845947266,0.996658086776733,0.652835845947266,0.309727311134338,0.347164243459702,0.00405576638877392,0.347164243459702,0.347164243459702,0.652835845947266,0.652835845947266,0.652835845947266,0.309727311134338,0.652835845947266,0.00405576638877392,0.652835845947266,0.347164243459702,0.347164243459702,0.652835845947266,0.347164243459702,0.347164243459702,0.00405576638877392,0.347164243459702,0.309727311134338,0.652835845947266,0.309727311134338,0.652835845947266,0.00405576638877392,0.690272808074951,0.309727311134338,0.995944261550903,0.309727311134338,0.995944261550903,0.00405576638877392,0.690272808074951,0.00405576638877392,0.309727311134338,0.00405576638877392,0.00405576638877392,0.00405576638877392,0.00405576638877392,0.309727311134338,0.309727311134338,0.309727311134338
+			} 
+			UVIndex: *36 {
+				a: 0,3,2,0,1,3,8,5,4,8,9,5,10,7,6,10,11,7,12,14,13,12,15,14,16,18,17,16,19,18,20,22,21,20,23,22
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+		Layer: 1 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 1
+			}
+		}
+	}
+	Model: 2136808928448, "Model::Serrania_Dummy_Loc", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2136808934448, "Model::Cube__1_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2136.91997528076,1262.51001358032,1114.70003128052
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0.130004882812488,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",47.4104652404785,31.805154800415,18.0146903991699
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808940448, "Model::Cube__2_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",3575.05989074707,1262.51001358032,-5738.33999633789
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-29.8899974822998,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",48.7511215209961,31.805154800415,18.1179618835449
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808926448, "Model::Cube__3_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-2889.99996185303,1262.51001358032,1569.99998092651
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,11.8999938964844,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",47.4104652404785,31.805154800415,18.0146884918213
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808948448, "Model::Cube__4_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",8500,262.109994888306,900
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-29.9699935913086,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",47.4104652404785,11.7965316772461,31.4194202423096
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808946448, "Model::Cube__15_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",28809.4787597656,262.109994888306,-11355.2597045898
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-6.60000467300415,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",42.2307624816895,11.7965316772461,29.8433609008789
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808950448, "Model::Cube__33_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",29441.2902832031,262.109994888306,-5099.52011108398
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-30.1000022888184,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",67.1764755249023,11.7965316772461,20.6874179840088
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808942448, "Model::Cube__35_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",34255.9906005859,262.109994888306,-4703.74984741211
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-30.1000022888184,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",48.8037071228027,11.7965316772461,13.1613359451294
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808956448, "Model::Cube__37_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",35419.4488525391,262.109994888306,-1947.38006591797
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-30.1000022888184,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",23.9723815917969,11.7965316772461,18.6009159088135
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808952448, "Model::Cube__36_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",30820.0012207031,262.109994888306,-7950
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-49.4000053405762,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",48.8037071228027,11.7965316772461,13.1613359451294
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808954448, "Model::Cube__34_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",24790.5303955078,262.109994888306,-9142.26989746094
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,42.2099914550781,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",43.4295921325684,11.7965316772461,20.6874179840088
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808944448, "Model::Cube__38_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",22369.9996948242,262.109994888306,-33589.9993896484
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,12.8599853515625,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",105.16625213623,11.7965316772461,15.9851684570312
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808962448, "Model::Cube__42_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",23050,262.109994888306,-36889.9993896484
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,44.9000244140625,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",42.7605972290039,11.7965316772461,15.9851684570312
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808958448, "Model::Cube__43_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",20250,262.109994888306,-37060.0006103516
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,44.9000244140625,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",42.7605972290039,11.7965316772461,15.9851684570312
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808964448, "Model::Cube__47_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",10600,262.109994888306,-38410.0006103516
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,62.8999938964844,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",42.7605972290039,11.7965316772461,15.9851684570312
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808966448, "Model::Cube__48_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",7670.00045776367,262.109994888306,-38970.0012207031
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,62.8999938964844,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",42.7605972290039,11.7965316772461,15.9851684570312
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808968448, "Model::Cube__49_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",11410.0006103516,262.109994888306,-42900
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-13.3999967575073,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",42.7605972290039,11.7965316772461,15.9851684570312
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808970448, "Model::Cube__50_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",19780.0003051758,262.109994888306,-43820.0012207031
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,57.5999755859375,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",92.7306365966797,11.7965316772461,15.9851684570312
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808972448, "Model::Cube__44_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",23219.9996948242,262.109994888306,-40810.0006103516
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,57.3000183105469,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",42.7605972290039,11.7965316772461,15.9851684570312
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808974448, "Model::Cube__51_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",23090.0009155273,262.109994888306,-44320.0012207031
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,50.8999938964844,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",42.7605972290039,11.7965316772461,15.9851684570312
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808960448, "Model::Cube__52_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",20530.0003051758,262.109994888306,-40810.0006103516
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,50.8999938964844,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",42.7605972290039,11.7965316772461,15.9851684570312
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808980448, "Model::Cube__53_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",18280.0003051758,262.109994888306,-38200
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,50.8999938964844,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",42.7605972290039,11.7965316772461,15.9851684570312
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808982448, "Model::Cube__45_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",17094.4000244141,262.109994888306,-34710.6018066406
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,25.8999938964844,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",24.8781147003174,11.7965316772461,15.9851684570312
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808976448, "Model::Cube__46_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",14170.0012207031,262.109994888306,-32430.0018310547
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-27.7999973297119,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",24.8781147003174,11.7965316772461,15.9851684570312
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808990448, "Model::Cube__9_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",12301.5800476074,1523.49004745483,-858.570003509521
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-29.9699935913086,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808992448, "Model::Cube__11_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",10090.0001525879,1523.49004745483,9500
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-29.9699935913086,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808984448, "Model::Cube__13_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",21831.5795898438,1523.49004745483,4151.42974853516
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-29.9699935913086,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808986448, "Model::Cube__10_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",9800,1523.49004745483,-2200
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-29.9699935913086,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808988448, "Model::Cube__12_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",7588.42010498047,1523.49004745483,8158.57009887695
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-29.9699935913086,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808978448, "Model::Cube__14_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",19330.0003051758,1523.49004745483,2810.00003814697
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-29.9699935913086,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809004448, "Model::Cube__5_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",6650,262.109994888306,3890.00015258789
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-29.9699935913086,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",47.4104652404785,11.7965316772461,31.4194202423096
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808998448, "Model::Cube__6_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",11059.9998474121,262.109994888306,6359.99984741211
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-29.9699935913086,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",47.4104652404785,11.7965316772461,31.4194202423096
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809006448, "Model::Cube__7_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",16280.0003051758,262.109994888306,9369.99969482422
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-29.9699935913086,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",47.4104652404785,11.7965316772461,31.4194202423096
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809000448, "Model::Cube__8_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",18619.9996948242,262.109994888306,6079.99992370605
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-29.9699935913086,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",47.4104652404785,11.7965316772461,31.4194202423096
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809002448, "Model::Cube__16_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",24310.0006103516,1523.49004745483,-14269.9996948242
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,43.7000122070312,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808994448, "Model::Cube__17_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",22230.0003051758,1523.49004745483,-12480.0003051758
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,43.7000122070312,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809008448, "Model::Cube__18_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",20150,1523.49004745483,-10590.0001525879
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,43.7000122070312,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809010448, "Model::Cube__19_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",25720.0012207031,1523.49004745483,-21580.0003051758
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,22.2999877929687,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136808996448, "Model::Cube__55_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",81700,1523.49004745483,-45500
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,14.3139953613281,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809014448, "Model::Cube__56_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",84800,1523.49004745483,-46100
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,14.3139953613281,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809012448, "Model::Cube__57_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",79600,1523.49004745483,-48900
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,14.3139953613281,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809028448, "Model::Cube__58_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",82600,1523.49004745483,-49100
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,14.3139953613281,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809030448, "Model::Cube__59_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",83600,1523.49004745483,-42300
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,14.3139953613281,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809016448, "Model::Cube__60_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",84100,1523.49004745483,-39200
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,14.3139953613281,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809022448, "Model::Cube__20_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",22860.0006103516,1523.49004745483,-20810.0006103516
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,22.2999877929687,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809018448, "Model::Cube__21_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",20150,1523.49004745483,-19839.9993896484
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,22.2999877929687,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809026448, "Model::Cube__22_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",17389.9993896484,1523.49004745483,-19019.9996948242
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,13.1000061035156,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809020448, "Model::Cube__23_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",14730.0003051758,1523.49004745483,-18580.0003051758
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,13.1000061035156,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809024448, "Model::Cube__24_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",12069.9996948242,1523.49004745483,-18100
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,13.1000061035156,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2136809032448, "Model::Cube__25_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",8969.99969482422,1523.49004745483,-18489.9993896484
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-9.60000133514404,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2133569903712, "Model::Cube__26_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",6109.99984741211,1523.49004745483,-18969.9996948242
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-9.60000133514404,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2133569919712, "Model::Cube__39_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",6227.1900177002,654.820013046265,-34663.8000488281
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-27.4999980926514,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",39.724235534668,19.6526565551758,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2133569905712, "Model::Cube__61_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",17789.5599365234,654.820013046265,-55568.701171875
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-27.4999980926514,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",32.3792266845703,19.6526565551758,22.0006504058838
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2133569921712, "Model::Cube__40_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1550.00028610229,654.820013046265,-40820.0012207031
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-58.0200004577637,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",74.3955459594727,19.6526565551758,17.6472091674805
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2122540451232, "Model::Cube__54_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",5400,1230.81998825073,-46700
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-58.0200004577637,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",74.3955459594727,31.1710071563721,17.6472091674805
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2122540467232, "Model::Cube__62_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",5500,1230.81998825073,-52300
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-58.0200004577637,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",74.3955459594727,31.1710071563721,17.6472091674805
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767817120, "Model::Cube__63_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",500,1230.81998825073,-56400
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,31,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",74.3955459594727,31.1710071563721,17.6472091674805
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767823120, "Model::Cube__41_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-2926.28974914551,654.820013046265,-48260.5529785156
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-58.0200004577637,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",74.3955459594727,19.6526565551758,17.6472091674805
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767819120, "Model::Cube__27_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",16180.0003051758,1523.49004745483,-12530.0003051758
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-30.4999980926514,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767821120, "Model::Cube__28_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",13569.9996948242,1523.49004745483,-13930.0003051758
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-30.4999980926514,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767809120, "Model::Cube__29_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",11050,1523.49004745483,-15580.0003051758
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-30.4999980926514,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767813120, "Model::Cube__30_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",24700,1523.49004745483,-17219.9996948242
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,18.4599914550781,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767815120, "Model::Cube__31_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",21889.9993896484,1523.49004745483,-16350
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,18.4599914550781,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",26.1326465606689,37.0245971679688,16.1000003814697
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767825120, "Model::Cube__32_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",29931.9305419922,1523.49004745483,-17676.3793945312
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,75.2999877929688,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",73.8691482543945,37.0245971679688,23.5929393768311
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767811120, "Model::Cube__64_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-31160.0006103516,1178.27997207642,-24980.0003051758
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-27.7000007629395,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",83.9317169189453,30.1898574829102,12.8891572952271
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767827120, "Model::Cube__65_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-37350,1180.00001907349,-24400
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-27.7000007629395,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",41.1013603210449,30.1898574829102,12.8891572952271
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767829120, "Model::Cube__73_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-35996.7712402344,48.3500003814697,-28214.3585205078
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-27.7000007629395,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",22.3303680419922,7.55652093887329,8.13613224029541
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767835120, "Model::Cube__74_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-38072.4792480469,48.3500003814697,-29306.298828125
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-27.7000007629395,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",8.83389377593994,7.55652093887329,8.13613224029541
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767841120, "Model::Cube__69_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-38850,1180.00001907349,-17619.9996948242
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-24.799991607666,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",41.1013603210449,30.1898574829102,12.8891572952271
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767833120, "Model::Cube__70_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-33200,1180.00001907349,-15019.9996948242
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-24.799991607666,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",41.1013603210449,30.1898574829102,12.8891572952271
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767843120, "Model::Cube__71_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-34660.0006103516,1180.00001907349,-11869.9996948242
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-24.7000007629394,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",41.1013603210449,30.1898574829102,12.8891572952271
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767845120, "Model::Cube__72_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-38610.0006103516,1180.00001907349,-13719.9996948242
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-24.7000007629394,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",41.1013603210449,30.1898574829102,12.8891572952271
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767831120, "Model::Cube__66_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-30167.5201416016,530.459976196289,-20629.1900634766
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-27.7000007629395,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",32.4618530273438,17.1986808776855,12.8891572952271
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767851120, "Model::Cube__67_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-31750,530.000019073486,-17169.9996948242
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-24.2999973297119,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",32.4618530273438,17.1986808776855,12.8891572952271
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2137767837120, "Model::Cube__68_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-38670.0012207031,530.000019073486,-20339.9993896484
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-24.2999973297119,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",32.4618530273438,17.1986808776855,12.8891572952271
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Material: 2136808872976, "Material::DefaultHDMaterial", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",0.727941155433655,0.727941155433655,0.727941155433655
+			P: "BumpFactor", "double", "Number", "",0
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",0.727941155433655,0.727941155433655,0.727941155433655
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::Serrania_Dummy_Loc, Model::RootNode
+	C: "OO",2136808928448,0
+	
+	;Model::Cube__1_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808934448,2136808928448
+	
+	;Model::Cube__2_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808940448,2136808928448
+	
+	;Model::Cube__3_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808926448,2136808928448
+	
+	;Model::Cube__4_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808948448,2136808928448
+	
+	;Model::Cube__15_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808946448,2136808928448
+	
+	;Model::Cube__33_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808950448,2136808928448
+	
+	;Model::Cube__35_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808942448,2136808928448
+	
+	;Model::Cube__37_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808956448,2136808928448
+	
+	;Model::Cube__36_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808952448,2136808928448
+	
+	;Model::Cube__34_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808954448,2136808928448
+	
+	;Model::Cube__38_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808944448,2136808928448
+	
+	;Model::Cube__42_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808962448,2136808928448
+	
+	;Model::Cube__43_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808958448,2136808928448
+	
+	;Model::Cube__47_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808964448,2136808928448
+	
+	;Model::Cube__48_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808966448,2136808928448
+	
+	;Model::Cube__49_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808968448,2136808928448
+	
+	;Model::Cube__50_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808970448,2136808928448
+	
+	;Model::Cube__44_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808972448,2136808928448
+	
+	;Model::Cube__51_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808974448,2136808928448
+	
+	;Model::Cube__52_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808960448,2136808928448
+	
+	;Model::Cube__53_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808980448,2136808928448
+	
+	;Model::Cube__45_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808982448,2136808928448
+	
+	;Model::Cube__46_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808976448,2136808928448
+	
+	;Model::Cube__9_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808990448,2136808928448
+	
+	;Model::Cube__11_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808992448,2136808928448
+	
+	;Model::Cube__13_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808984448,2136808928448
+	
+	;Model::Cube__10_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808986448,2136808928448
+	
+	;Model::Cube__12_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808988448,2136808928448
+	
+	;Model::Cube__14_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808978448,2136808928448
+	
+	;Model::Cube__5_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809004448,2136808928448
+	
+	;Model::Cube__6_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808998448,2136808928448
+	
+	;Model::Cube__7_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809006448,2136808928448
+	
+	;Model::Cube__8_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809000448,2136808928448
+	
+	;Model::Cube__16_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809002448,2136808928448
+	
+	;Model::Cube__17_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808994448,2136808928448
+	
+	;Model::Cube__18_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809008448,2136808928448
+	
+	;Model::Cube__19_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809010448,2136808928448
+	
+	;Model::Cube__55_, Model::Serrania_Dummy_Loc
+	C: "OO",2136808996448,2136808928448
+	
+	;Model::Cube__56_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809014448,2136808928448
+	
+	;Model::Cube__57_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809012448,2136808928448
+	
+	;Model::Cube__58_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809028448,2136808928448
+	
+	;Model::Cube__59_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809030448,2136808928448
+	
+	;Model::Cube__60_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809016448,2136808928448
+	
+	;Model::Cube__20_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809022448,2136808928448
+	
+	;Model::Cube__21_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809018448,2136808928448
+	
+	;Model::Cube__22_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809026448,2136808928448
+	
+	;Model::Cube__23_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809020448,2136808928448
+	
+	;Model::Cube__24_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809024448,2136808928448
+	
+	;Model::Cube__25_, Model::Serrania_Dummy_Loc
+	C: "OO",2136809032448,2136808928448
+	
+	;Model::Cube__26_, Model::Serrania_Dummy_Loc
+	C: "OO",2133569903712,2136808928448
+	
+	;Model::Cube__39_, Model::Serrania_Dummy_Loc
+	C: "OO",2133569919712,2136808928448
+	
+	;Model::Cube__61_, Model::Serrania_Dummy_Loc
+	C: "OO",2133569905712,2136808928448
+	
+	;Model::Cube__40_, Model::Serrania_Dummy_Loc
+	C: "OO",2133569921712,2136808928448
+	
+	;Model::Cube__54_, Model::Serrania_Dummy_Loc
+	C: "OO",2122540451232,2136808928448
+	
+	;Model::Cube__62_, Model::Serrania_Dummy_Loc
+	C: "OO",2122540467232,2136808928448
+	
+	;Model::Cube__63_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767817120,2136808928448
+	
+	;Model::Cube__41_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767823120,2136808928448
+	
+	;Model::Cube__27_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767819120,2136808928448
+	
+	;Model::Cube__28_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767821120,2136808928448
+	
+	;Model::Cube__29_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767809120,2136808928448
+	
+	;Model::Cube__30_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767813120,2136808928448
+	
+	;Model::Cube__31_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767815120,2136808928448
+	
+	;Model::Cube__32_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767825120,2136808928448
+	
+	;Model::Cube__64_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767811120,2136808928448
+	
+	;Model::Cube__65_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767827120,2136808928448
+	
+	;Model::Cube__73_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767829120,2136808928448
+	
+	;Model::Cube__74_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767835120,2136808928448
+	
+	;Model::Cube__69_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767841120,2136808928448
+	
+	;Model::Cube__70_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767833120,2136808928448
+	
+	;Model::Cube__71_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767843120,2136808928448
+	
+	;Model::Cube__72_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767845120,2136808928448
+	
+	;Model::Cube__66_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767831120,2136808928448
+	
+	;Model::Cube__67_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767851120,2136808928448
+	
+	;Model::Cube__68_, Model::Serrania_Dummy_Loc
+	C: "OO",2137767837120,2136808928448
+	
+	;Material::DefaultHDMaterial, Model::Cube__1_
+	C: "OO",2136808872976,2136808934448
+	
+	;Geometry::Scene, Model::Cube__1_
+	C: "OO",2136150287056,2136808934448
+	
+	;Material::DefaultHDMaterial, Model::Cube__2_
+	C: "OO",2136808872976,2136808940448
+	
+	;Geometry::Scene, Model::Cube__2_
+	C: "OO",2136150287056,2136808940448
+	
+	;Material::DefaultHDMaterial, Model::Cube__3_
+	C: "OO",2136808872976,2136808926448
+	
+	;Geometry::Scene, Model::Cube__3_
+	C: "OO",2136150287056,2136808926448
+	
+	;Material::DefaultHDMaterial, Model::Cube__4_
+	C: "OO",2136808872976,2136808948448
+	
+	;Geometry::Scene, Model::Cube__4_
+	C: "OO",2136150287056,2136808948448
+	
+	;Material::DefaultHDMaterial, Model::Cube__15_
+	C: "OO",2136808872976,2136808946448
+	
+	;Geometry::Scene, Model::Cube__15_
+	C: "OO",2136150287056,2136808946448
+	
+	;Material::DefaultHDMaterial, Model::Cube__33_
+	C: "OO",2136808872976,2136808950448
+	
+	;Geometry::Scene, Model::Cube__33_
+	C: "OO",2136150287056,2136808950448
+	
+	;Material::DefaultHDMaterial, Model::Cube__35_
+	C: "OO",2136808872976,2136808942448
+	
+	;Geometry::Scene, Model::Cube__35_
+	C: "OO",2136150287056,2136808942448
+	
+	;Material::DefaultHDMaterial, Model::Cube__37_
+	C: "OO",2136808872976,2136808956448
+	
+	;Geometry::Scene, Model::Cube__37_
+	C: "OO",2136150287056,2136808956448
+	
+	;Material::DefaultHDMaterial, Model::Cube__36_
+	C: "OO",2136808872976,2136808952448
+	
+	;Geometry::Scene, Model::Cube__36_
+	C: "OO",2136150287056,2136808952448
+	
+	;Material::DefaultHDMaterial, Model::Cube__34_
+	C: "OO",2136808872976,2136808954448
+	
+	;Geometry::Scene, Model::Cube__34_
+	C: "OO",2136150287056,2136808954448
+	
+	;Material::DefaultHDMaterial, Model::Cube__38_
+	C: "OO",2136808872976,2136808944448
+	
+	;Geometry::Scene, Model::Cube__38_
+	C: "OO",2136150287056,2136808944448
+	
+	;Material::DefaultHDMaterial, Model::Cube__42_
+	C: "OO",2136808872976,2136808962448
+	
+	;Geometry::Scene, Model::Cube__42_
+	C: "OO",2136150287056,2136808962448
+	
+	;Material::DefaultHDMaterial, Model::Cube__43_
+	C: "OO",2136808872976,2136808958448
+	
+	;Geometry::Scene, Model::Cube__43_
+	C: "OO",2136150287056,2136808958448
+	
+	;Material::DefaultHDMaterial, Model::Cube__47_
+	C: "OO",2136808872976,2136808964448
+	
+	;Geometry::Scene, Model::Cube__47_
+	C: "OO",2136150287056,2136808964448
+	
+	;Material::DefaultHDMaterial, Model::Cube__48_
+	C: "OO",2136808872976,2136808966448
+	
+	;Geometry::Scene, Model::Cube__48_
+	C: "OO",2136150287056,2136808966448
+	
+	;Material::DefaultHDMaterial, Model::Cube__49_
+	C: "OO",2136808872976,2136808968448
+	
+	;Geometry::Scene, Model::Cube__49_
+	C: "OO",2136150287056,2136808968448
+	
+	;Material::DefaultHDMaterial, Model::Cube__50_
+	C: "OO",2136808872976,2136808970448
+	
+	;Geometry::Scene, Model::Cube__50_
+	C: "OO",2136150287056,2136808970448
+	
+	;Material::DefaultHDMaterial, Model::Cube__44_
+	C: "OO",2136808872976,2136808972448
+	
+	;Geometry::Scene, Model::Cube__44_
+	C: "OO",2136150287056,2136808972448
+	
+	;Material::DefaultHDMaterial, Model::Cube__51_
+	C: "OO",2136808872976,2136808974448
+	
+	;Geometry::Scene, Model::Cube__51_
+	C: "OO",2136150287056,2136808974448
+	
+	;Material::DefaultHDMaterial, Model::Cube__52_
+	C: "OO",2136808872976,2136808960448
+	
+	;Geometry::Scene, Model::Cube__52_
+	C: "OO",2136150287056,2136808960448
+	
+	;Material::DefaultHDMaterial, Model::Cube__53_
+	C: "OO",2136808872976,2136808980448
+	
+	;Geometry::Scene, Model::Cube__53_
+	C: "OO",2136150287056,2136808980448
+	
+	;Material::DefaultHDMaterial, Model::Cube__45_
+	C: "OO",2136808872976,2136808982448
+	
+	;Geometry::Scene, Model::Cube__45_
+	C: "OO",2136150287056,2136808982448
+	
+	;Material::DefaultHDMaterial, Model::Cube__46_
+	C: "OO",2136808872976,2136808976448
+	
+	;Geometry::Scene, Model::Cube__46_
+	C: "OO",2136150287056,2136808976448
+	
+	;Material::DefaultHDMaterial, Model::Cube__9_
+	C: "OO",2136808872976,2136808990448
+	
+	;Geometry::Scene, Model::Cube__9_
+	C: "OO",2136150287056,2136808990448
+	
+	;Material::DefaultHDMaterial, Model::Cube__11_
+	C: "OO",2136808872976,2136808992448
+	
+	;Geometry::Scene, Model::Cube__11_
+	C: "OO",2136150287056,2136808992448
+	
+	;Material::DefaultHDMaterial, Model::Cube__13_
+	C: "OO",2136808872976,2136808984448
+	
+	;Geometry::Scene, Model::Cube__13_
+	C: "OO",2136150287056,2136808984448
+	
+	;Material::DefaultHDMaterial, Model::Cube__10_
+	C: "OO",2136808872976,2136808986448
+	
+	;Geometry::Scene, Model::Cube__10_
+	C: "OO",2136150287056,2136808986448
+	
+	;Material::DefaultHDMaterial, Model::Cube__12_
+	C: "OO",2136808872976,2136808988448
+	
+	;Geometry::Scene, Model::Cube__12_
+	C: "OO",2136150287056,2136808988448
+	
+	;Material::DefaultHDMaterial, Model::Cube__14_
+	C: "OO",2136808872976,2136808978448
+	
+	;Geometry::Scene, Model::Cube__14_
+	C: "OO",2136150287056,2136808978448
+	
+	;Material::DefaultHDMaterial, Model::Cube__5_
+	C: "OO",2136808872976,2136809004448
+	
+	;Geometry::Scene, Model::Cube__5_
+	C: "OO",2136150287056,2136809004448
+	
+	;Material::DefaultHDMaterial, Model::Cube__6_
+	C: "OO",2136808872976,2136808998448
+	
+	;Geometry::Scene, Model::Cube__6_
+	C: "OO",2136150287056,2136808998448
+	
+	;Material::DefaultHDMaterial, Model::Cube__7_
+	C: "OO",2136808872976,2136809006448
+	
+	;Geometry::Scene, Model::Cube__7_
+	C: "OO",2136150287056,2136809006448
+	
+	;Material::DefaultHDMaterial, Model::Cube__8_
+	C: "OO",2136808872976,2136809000448
+	
+	;Geometry::Scene, Model::Cube__8_
+	C: "OO",2136150287056,2136809000448
+	
+	;Material::DefaultHDMaterial, Model::Cube__16_
+	C: "OO",2136808872976,2136809002448
+	
+	;Geometry::Scene, Model::Cube__16_
+	C: "OO",2136150287056,2136809002448
+	
+	;Material::DefaultHDMaterial, Model::Cube__17_
+	C: "OO",2136808872976,2136808994448
+	
+	;Geometry::Scene, Model::Cube__17_
+	C: "OO",2136150287056,2136808994448
+	
+	;Material::DefaultHDMaterial, Model::Cube__18_
+	C: "OO",2136808872976,2136809008448
+	
+	;Geometry::Scene, Model::Cube__18_
+	C: "OO",2136150287056,2136809008448
+	
+	;Material::DefaultHDMaterial, Model::Cube__19_
+	C: "OO",2136808872976,2136809010448
+	
+	;Geometry::Scene, Model::Cube__19_
+	C: "OO",2136150287056,2136809010448
+	
+	;Material::DefaultHDMaterial, Model::Cube__55_
+	C: "OO",2136808872976,2136808996448
+	
+	;Geometry::Scene, Model::Cube__55_
+	C: "OO",2136150287056,2136808996448
+	
+	;Material::DefaultHDMaterial, Model::Cube__56_
+	C: "OO",2136808872976,2136809014448
+	
+	;Geometry::Scene, Model::Cube__56_
+	C: "OO",2136150287056,2136809014448
+	
+	;Material::DefaultHDMaterial, Model::Cube__57_
+	C: "OO",2136808872976,2136809012448
+	
+	;Geometry::Scene, Model::Cube__57_
+	C: "OO",2136150287056,2136809012448
+	
+	;Material::DefaultHDMaterial, Model::Cube__58_
+	C: "OO",2136808872976,2136809028448
+	
+	;Geometry::Scene, Model::Cube__58_
+	C: "OO",2136150287056,2136809028448
+	
+	;Material::DefaultHDMaterial, Model::Cube__59_
+	C: "OO",2136808872976,2136809030448
+	
+	;Geometry::Scene, Model::Cube__59_
+	C: "OO",2136150287056,2136809030448
+	
+	;Material::DefaultHDMaterial, Model::Cube__60_
+	C: "OO",2136808872976,2136809016448
+	
+	;Geometry::Scene, Model::Cube__60_
+	C: "OO",2136150287056,2136809016448
+	
+	;Material::DefaultHDMaterial, Model::Cube__20_
+	C: "OO",2136808872976,2136809022448
+	
+	;Geometry::Scene, Model::Cube__20_
+	C: "OO",2136150287056,2136809022448
+	
+	;Material::DefaultHDMaterial, Model::Cube__21_
+	C: "OO",2136808872976,2136809018448
+	
+	;Geometry::Scene, Model::Cube__21_
+	C: "OO",2136150287056,2136809018448
+	
+	;Material::DefaultHDMaterial, Model::Cube__22_
+	C: "OO",2136808872976,2136809026448
+	
+	;Geometry::Scene, Model::Cube__22_
+	C: "OO",2136150287056,2136809026448
+	
+	;Material::DefaultHDMaterial, Model::Cube__23_
+	C: "OO",2136808872976,2136809020448
+	
+	;Geometry::Scene, Model::Cube__23_
+	C: "OO",2136150287056,2136809020448
+	
+	;Material::DefaultHDMaterial, Model::Cube__24_
+	C: "OO",2136808872976,2136809024448
+	
+	;Geometry::Scene, Model::Cube__24_
+	C: "OO",2136150287056,2136809024448
+	
+	;Material::DefaultHDMaterial, Model::Cube__25_
+	C: "OO",2136808872976,2136809032448
+	
+	;Geometry::Scene, Model::Cube__25_
+	C: "OO",2136150287056,2136809032448
+	
+	;Material::DefaultHDMaterial, Model::Cube__26_
+	C: "OO",2136808872976,2133569903712
+	
+	;Geometry::Scene, Model::Cube__26_
+	C: "OO",2136150287056,2133569903712
+	
+	;Material::DefaultHDMaterial, Model::Cube__39_
+	C: "OO",2136808872976,2133569919712
+	
+	;Geometry::Scene, Model::Cube__39_
+	C: "OO",2136150287056,2133569919712
+	
+	;Material::DefaultHDMaterial, Model::Cube__61_
+	C: "OO",2136808872976,2133569905712
+	
+	;Geometry::Scene, Model::Cube__61_
+	C: "OO",2136150287056,2133569905712
+	
+	;Material::DefaultHDMaterial, Model::Cube__40_
+	C: "OO",2136808872976,2133569921712
+	
+	;Geometry::Scene, Model::Cube__40_
+	C: "OO",2136150287056,2133569921712
+	
+	;Material::DefaultHDMaterial, Model::Cube__54_
+	C: "OO",2136808872976,2122540451232
+	
+	;Geometry::Scene, Model::Cube__54_
+	C: "OO",2136150287056,2122540451232
+	
+	;Material::DefaultHDMaterial, Model::Cube__62_
+	C: "OO",2136808872976,2122540467232
+	
+	;Geometry::Scene, Model::Cube__62_
+	C: "OO",2136150287056,2122540467232
+	
+	;Material::DefaultHDMaterial, Model::Cube__63_
+	C: "OO",2136808872976,2137767817120
+	
+	;Geometry::Scene, Model::Cube__63_
+	C: "OO",2136150287056,2137767817120
+	
+	;Material::DefaultHDMaterial, Model::Cube__41_
+	C: "OO",2136808872976,2137767823120
+	
+	;Geometry::Scene, Model::Cube__41_
+	C: "OO",2136150287056,2137767823120
+	
+	;Material::DefaultHDMaterial, Model::Cube__27_
+	C: "OO",2136808872976,2137767819120
+	
+	;Geometry::Scene, Model::Cube__27_
+	C: "OO",2136150287056,2137767819120
+	
+	;Material::DefaultHDMaterial, Model::Cube__28_
+	C: "OO",2136808872976,2137767821120
+	
+	;Geometry::Scene, Model::Cube__28_
+	C: "OO",2136150287056,2137767821120
+	
+	;Material::DefaultHDMaterial, Model::Cube__29_
+	C: "OO",2136808872976,2137767809120
+	
+	;Geometry::Scene, Model::Cube__29_
+	C: "OO",2136150287056,2137767809120
+	
+	;Material::DefaultHDMaterial, Model::Cube__30_
+	C: "OO",2136808872976,2137767813120
+	
+	;Geometry::Scene, Model::Cube__30_
+	C: "OO",2136150287056,2137767813120
+	
+	;Material::DefaultHDMaterial, Model::Cube__31_
+	C: "OO",2136808872976,2137767815120
+	
+	;Geometry::Scene, Model::Cube__31_
+	C: "OO",2136150287056,2137767815120
+	
+	;Material::DefaultHDMaterial, Model::Cube__32_
+	C: "OO",2136808872976,2137767825120
+	
+	;Geometry::Scene, Model::Cube__32_
+	C: "OO",2136150287056,2137767825120
+	
+	;Material::DefaultHDMaterial, Model::Cube__64_
+	C: "OO",2136808872976,2137767811120
+	
+	;Geometry::Scene, Model::Cube__64_
+	C: "OO",2136150287056,2137767811120
+	
+	;Material::DefaultHDMaterial, Model::Cube__65_
+	C: "OO",2136808872976,2137767827120
+	
+	;Geometry::Scene, Model::Cube__65_
+	C: "OO",2136150287056,2137767827120
+	
+	;Material::DefaultHDMaterial, Model::Cube__73_
+	C: "OO",2136808872976,2137767829120
+	
+	;Geometry::Scene, Model::Cube__73_
+	C: "OO",2136150287056,2137767829120
+	
+	;Material::DefaultHDMaterial, Model::Cube__74_
+	C: "OO",2136808872976,2137767835120
+	
+	;Geometry::Scene, Model::Cube__74_
+	C: "OO",2136150287056,2137767835120
+	
+	;Material::DefaultHDMaterial, Model::Cube__69_
+	C: "OO",2136808872976,2137767841120
+	
+	;Geometry::Scene, Model::Cube__69_
+	C: "OO",2136150287056,2137767841120
+	
+	;Material::DefaultHDMaterial, Model::Cube__70_
+	C: "OO",2136808872976,2137767833120
+	
+	;Geometry::Scene, Model::Cube__70_
+	C: "OO",2136150287056,2137767833120
+	
+	;Material::DefaultHDMaterial, Model::Cube__71_
+	C: "OO",2136808872976,2137767843120
+	
+	;Geometry::Scene, Model::Cube__71_
+	C: "OO",2136150287056,2137767843120
+	
+	;Material::DefaultHDMaterial, Model::Cube__72_
+	C: "OO",2136808872976,2137767845120
+	
+	;Geometry::Scene, Model::Cube__72_
+	C: "OO",2136150287056,2137767845120
+	
+	;Material::DefaultHDMaterial, Model::Cube__66_
+	C: "OO",2136808872976,2137767831120
+	
+	;Geometry::Scene, Model::Cube__66_
+	C: "OO",2136150287056,2137767831120
+	
+	;Material::DefaultHDMaterial, Model::Cube__67_
+	C: "OO",2136808872976,2137767851120
+	
+	;Geometry::Scene, Model::Cube__67_
+	C: "OO",2136150287056,2137767851120
+	
+	;Material::DefaultHDMaterial, Model::Cube__68_
+	C: "OO",2136808872976,2137767837120
+	
+	;Geometry::Scene, Model::Cube__68_
+	C: "OO",2136150287056,2137767837120
+}
+;Takes section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+}
